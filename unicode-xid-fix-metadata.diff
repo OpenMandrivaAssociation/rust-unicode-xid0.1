@@ -1,0 +1,11 @@
+--- unicode-xid-0.1.0/Cargo.toml	2017-05-08T17:43:03+00:00
++++ unicode-xid-0.1.0/Cargo.toml	2019-08-18T13:52:47.543777+00:00
+@@ -18,7 +18,7 @@
+ Unicode Standard Annex #31.
+ """
+ 
+-exclude = [ "target/*", "Cargo.lock" ]
++exclude = [ "target/*", "Cargo.lock", "/scripts/*" ]
+ 
+ [features]
+ default = []
